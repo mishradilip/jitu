@@ -3,14 +3,18 @@ body {
 }
 
 .item-block-wrapper {
-  background-color: #e84c3d;
+  background-color: #808080;
   color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
+.user-media {
+  font-size: 14px;
+}
+
 .user-short-name {
-  background-color: #ee8275;
+  background-color: #a6a6a6;
   display: flex;
   width: 60px;
   height: 60px;
@@ -20,11 +24,208 @@ body {
   font-weight: 500;
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
+.user-name {
+  font-size: 16px;
+  font-weight: 400;
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+.user-detail {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 40px 20px;
+}
+
+.user-detail address {
+  margin-bottom: 0;
+}
+
+.user-detail h3,
+.user-detail address p,
+.user-detail address a {
+  color: #a0a0a0;
+  font-size: 12px;
+}
+
+.user-detail h3 {
+  border-left: 3px solid #a0a0a0;
+  font-size: 14px;
+}
+
+.user-detail .address {
+  position: relative;
+  padding-left: 30px;
+}
+
+.user-detail .address i {
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+}
+
+.icon-detail {
+  background: url('../images/icon.png') no-repeat;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.icon-phone {
+  background-position: -4px -2px;
+  background-size: 20%;
+}
+
+.icon-email {
+  background-position: -4px -31px;
+  background-size: 14%;
+}
+
+.icon-web {
+  background-position: -2px -62px;
+  background-size: 17%;
+}
+
+.user-content {
+  margin: 30px 0;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.user-info .user-info-list li:not(:last-child),
+.user-social-list li:not(:last-child),
+.user-choice .user-choice-list li {
+  margin-right: 3em;
+}
+
+.user-info-list li a,
+.user-info-list li a:hover,
+.user-info-list li a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item-detail-wrapper {
+  padding: 40px 0;
+}
+
+.item-detail-wrapper .user-short-name {
+  background-color: #06bfd7;
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+}
+
+.user-time,
+.item-detail-content,
+.user-choice li a {
+  color: #8c8c8c;
+}
+
+.user-choice .heart a i {
+  color: #e74b3e;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+@media (max-width: 767px) {
+  .visible-mobile {
+    display: block;
+  }
+  .visible-inline-mobile {
+    display: inline-block;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+  .user-content {
+    margin-bottom: 0;
+  }
+  .user-info-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .user-info .user-info-list li:not(:last-child),
+  .user-social-list li:not(:last-child) {
+    margin-right: 1em;
+  }
+  .user-logo {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .user-logo img {
+    max-width: 180px;
+  }
+  .user-short-name {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .user-rating {
+    color: #ffffff;
+  }
+  .user-rating-wrapper {
+    float: right;
+  }
+  .user-media {
+    float: left;
+    width: auto;
+  }
+  .user-detail address a {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .icon-phone {
+    background-position: -4px -2px;
+    background-size: 10%;
+  }
+  .icon-email {
+    background-position: -4px -34px;
+    background-size: 9%;
+  }
+  .icon-web {
+    background-position: -3px -79px;
+    background-size: 10%;
+  }
+  .item-detail-wrapper .user-rating,
+  .item-detail-wrapper .user-rating-wrapper {
+    color: #e74b3e;
+  }
+  .user-choice {
+    background-color: #f8fbfc;
+    border-bottom: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .visible-mobile,
+  .visible-inline-mobile {
+    display: none;
+  }
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {}

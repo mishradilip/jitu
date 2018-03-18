@@ -1,48 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <div>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Google Font CSS -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <!-- Theme CSS -->
     <link rel="stylesheet" href="css/style.css">
   </div>
 </head>
+
 <body>
   <section class="main-wrapper">
     <div class="container-fluid item-block-wrapper">
       <div class="row">
         <div class="col-sm-8">
-          <div class="col-sm-12">
-            <div class="media">
-              <span class="align-self-center mr-3 user-short-name rounded-circle">AJ</span>
-              <div class="media-body">
-                <h5 class="mt-0 user-name">Alex Jones</h5>
-                <p>San Fancisco, CA</p>
-                <p class="mb-0">@Bulwark Since 2017</p>
-              </div>
+          <div class="col-sm-12 media user-media">
+            <span class="align-self-center mr-3 user-short-name rounded-circle">AJ</span>
+            <div class="media-body">
+              <h5 class="mt-0 mb-0 user-name">Alex Jones</h5>
+              <p class="mb-0 hidden-mobile">San Fancisco, CA</p>
+              <p class="mb-0">@Bulwark Since 2017</p>
             </div>
           </div>
-          <div class="col-sm-12">
-            <p class="mb-0">Connect your bank/credit card and be sure your account date are always up to date</p>
+          <div class="visible-inline-mobile user-rating-wrapper text-center">
+            <span>5 STAR</span>
+            <p class="user-rating mb-0">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </p>
           </div>
-          <div class="col-sm-12">
-
+          <div class="clearfix"></div>
+          <div class="col-sm-12 user-content justify-content-center">
+            <p class="mb-0">Connect your bank/credit card and be sure your account date are always up to date</p>
           </div>
         </div>
         <div class="col-sm-4">
+          <div class="col-sm-12">
+            <div class="user-detail">
+              <div class="row">
+                <div class="col-sm-5 user-logo">
+                  <img src="images/crop.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-7">
+                  <h3 class="col-sm-12">
+                    Sibbir Ahmad Mahadi
+                    <small>Founder, CEO</small>
+                  </h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+
+                </div>
+                <address class="col-sm-7">
+                  <p class="mb-0 address"><i class="fas fa-map-marker"></i> <span>House# 20, Road# 01, Joynal Market, Uttara, Dhaka 1230</span></p>
+                  <a class="icon-detail icon-phone" href="tel:+880 1674537178"><span>+880 1674537178</span></a>
+                  <a class="icon-detail icon-email" href="mailto:remixmahadi@gmail.com"><span>remixmahadi@gmail.com</span></a>
+                  <a class="icon-detail icon-web" href="www.drawera.com"><span>www.drawera.com</span></a>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row user-info">
+        <div class="col-sm-8">
+          <ul class="list-inline user-info-list col-sm-12">
+            <li class="list-inline-item">
+              <i class="fas fa-phone rotate-90"></i>
+              <p class="mb-0">Call</p>
+              <a class="hidden-mobile" href="tel:+1 653 564 6532">+1 653 564 6532</a>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-comment"></i>
+              <p class="mb-0">Text</p>
+              <a class="hidden-mobile" href="tel:+1 653 564 6532">+1 653 564 6532</a>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-envelope"></i>
+              <p class="mb-0">Email</p>
+              <a class="hidden-mobile" href="mailto:georgiadean@gmail.com">georgiadean@gmail.com</a>
+            </li>
+            <li class="list-inline-item visible-inline-mobile">
+              <i class="fas fa-star"></i>
+              <p class="mb-0">Review</p>
+            </li>
+            <li class="list-inline-item visible-inline-mobile">
+              <i class="far fa-paper-plane"></i>
+              <p class="mb-0">Share</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 hidden-mobile">
+          <ul class="user-social-list list-inline text-center mt-30">
+            <li class="list-inline-item">
+              <i class="fas fa-star"></i>
+              <p class="mb-0">Review</p>
+            </li>
+            <li class="list-inline-item">
+              <i class="far fa-paper-plane"></i>
+              <p class="mb-0">Share</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+    <div class="container-fluid item-detail-wrapper">
+      <div class="col-sm-12">
+        <div class="col-sm-12 media user-media">
+          <span class="align-self-center mr-3 user-short-name rounded-circle">HL</span>
+          <div class="media-body">
+            <h5 class="mt-0 mb-0 user-name">Harvey Lawrence</h5>
+            <p class="mb-0 user-time">39m ago</p>
+          </div>
+        </div>
+        <div class="visible-inline-mobile user-rating-wrapper text-center">
+          <span>5 STAR</span>
+          <p class="user-rating mb-0">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="item-detail-content col-sm-12">
+          <p class="text-danger mt-20 mb-20">GO TO WORK WITH!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam alias dolore dolorum, laudantium magni debitis nesciunt ea quas facere, harum est dolor voluptatem esse veniam enim vero sint at, nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolor earum quisquam nobis. Quae, quia blanditiis autem perferendis eligendi enim id minus officia architecto tempore fuga, delectus culpa quam hic!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil culpa corrupti incidunt laborum sint! Quasi impedit, obcaecati facilis ducimus accusamus quaerat. Assumenda veniam animi unde alias quaerat, reiciendis cupiditate maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odio magnam hic aperiam maiores consectetur fugiat natus praesentium voluptatibus. Repellendus reiciendis suscipit animi quis earum et aperiam, dolor rem commodi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid user-choice">
+      <div class="col-sm-12">
+        <ul class="list-inline user-choice-list mb-0">
+          <li class="list-inline-item heart">
+            <a href="javascript:void(0)"><i class="fas fa-heart"></i> Useful</a>
+          </li>
+          <li class="list-inline-item share">
+            <a href="javascript:void(0)"><i class="far fa-paper-plane"></i> Share</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
