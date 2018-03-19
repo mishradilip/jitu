@@ -62,6 +62,26 @@ body {
   font-size: 16px;
 }
 
+.card-img-wrapper {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+.card-img-wrapper .play-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  max-width: 50px;
+}
+
+.item-detail-heading h2 {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding: 0 15px 5px;
+}
+
 .icon-detail {
   background: url('../images/icon.png') no-repeat;
   padding-left: 30px;
@@ -135,7 +155,8 @@ body {
   color: #8c8c8c;
 }
 
-.user-choice .heart a i {
+.user-choice li a.active i,
+.user-choice li a:hover i {
   color: #e74b3e;
 }
 
@@ -143,6 +164,11 @@ body {
   display: block;
   content: "";
   clear: both;
+}
+
+.item-detail-wrapper .user-rating,
+.item-detail-wrapper .user-rating-wrapper {
+  color: #e74b3e;
 }
 
 @media (max-width: 767px) {
@@ -206,10 +232,6 @@ body {
   .icon-web {
     background-position: -3px -79px;
     background-size: 10%;
-  }
-  .item-detail-wrapper .user-rating,
-  .item-detail-wrapper .user-rating-wrapper {
-    color: #e74b3e;
   }
   .user-choice {
     background-color: #f8fbfc;
