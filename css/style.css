@@ -171,6 +171,32 @@ body {
   color: #e74b3e;
 }
 
+.thankyou-page {
+  background-color: #f2f2f7;
+  padding-top: 50px;
+}
+
+.thankyou-page h1 {
+  color: #95989a;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.thankyou-page h2 {
+  color: #383838;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.social-list {
+  margin-bottom: 20px;
+}
+
+.social-list li {
+  max-width: 60px;
+}
+
 @media (max-width: 767px) {
   .visible-mobile {
     display: block;
@@ -239,6 +265,16 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 20px;
+  }
+  .user-choice-list {
+    text-align: center;
+  }
+  .social-list {
+    margin-top: 20px;
+  }
+  .social-list li {
+    margin-bottom: 20px;
+    max-width: 50px;
   }
 }
 
